@@ -1,5 +1,5 @@
 def append_to_file(filename, text):
-    with open(filename, "a") as :
+    with open(filename, "a") as f:
         f.write(text + "\n")
 
 if __name__ == "__main__":
